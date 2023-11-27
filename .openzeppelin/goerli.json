@@ -1,0 +1,295 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xf7e9C1aC466637c62b6041F2099CCC4256DA3096",
+    "txHash": "0x7e8c64cb69b23ddf7d5ade831d97b1eb967466e0fa19eb21bb08670fa335345d"
+  },
+  "proxies": [
+    {
+      "address": "0x2C3422AA5f029f6ded6AD25BF8dC60AADb735516",
+      "txHash": "0x9d5383ec2629f7943a30d86917ab8cf8f8c677e6f33ba38c1bf1265442120781",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf91f282aD57df3D5911E2C506b1664863Cdc71CF",
+      "txHash": "0x4f17af7905f9a01f7e234203da08785fe473153f14c08777edc201d7d0542a2f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xfa68cE4e92f15F8e27FAe92a786F11aBD4DE990d",
+      "txHash": "0x2e0089f2f67b570334ae2249651a7ee6176113fa84c46112ad0090436fa0daf3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0Ef6461902104cBdd1FD33abD42a1354Da12D37a",
+      "txHash": "0x8b922c5dd4862a4be4d71f0ceb9c19e2163d42c45dbb330b4e3bb222b0741c54",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x19f543f42A095858a102D0FDef69F525b841954B",
+      "txHash": "0x0d14efd75637dc0c5b4c068e07a26b502543774172cdd39477f2bb95684ade2b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xAf1c6BAE2c46BA0a42d8B1655ba9f2506DA7e774",
+      "txHash": "0x17496d6d4702994c33e9a396860ecd0f34b4f9736c761c4179e00178eac74c0c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x4f48b36Dbbc8074753463c1746A7ABab886d84c9",
+      "txHash": "0x51f5e615765d02f4f529019a42c3a5179950acc05e81b075da24b3f41fc1d315",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x29568cF31A4ED79AC8444Da0dc073cC529A6dFf5",
+      "txHash": "0xae8d71a4a2175e57d96af2c71e8fdd8e306d4fb57552589d0863da8080620ab8",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x440cC07b373D2A34Cee20A3f42A0D97803813e22",
+      "txHash": "0xec2c063837caf85080111eee73f59a1da09dc9b22927f43c7f55fe8f57185d28",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x29BE1aab6C3441ed6E496B32ca732fE6e53B9931",
+      "txHash": "0xb4229bca14a2fb3df6882e76ccd77466a6de228878d2c9426be065a4fc62854c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x1888945B1FF298fC4cbD2496B71A84fc58a63275",
+      "txHash": "0xbace58a270cbd8312461f8420c24556a3906870253b566e0d9b818da370f5fb5",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x9Fd4572F84dB3c1904784d9414bAd56834765Fb1",
+      "txHash": "0x077df40d9494875eb2752a0cf450c4b7d9d620dd83d7af001a0d43ed5a55179c",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "e9e071f63acbd4e332d2bfb90dbb7a78df3dc48001beacab67a0c307522c2b5c": {
+      "address": "0x961D8a219E05f3D7D382C50f3C84554304D12671",
+      "txHash": "0xed732ba6b05e6d4552cdcf50ded1c51a56400aae8c42adf1c41b2e8479d2fd94",
+      "layout": {
+        "solcVersion": "0.8.5",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin\\contracts-upgradeable\\proxy\\utils\\Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ContextUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\utils\\ContextUpgradeable.sol:36"
+          },
+          {
+            "label": "_balances",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_mapping(t_address,t_uint256)",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:37"
+          },
+          {
+            "label": "_allowances",
+            "offset": 0,
+            "slot": "52",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:39"
+          },
+          {
+            "label": "_totalSupply",
+            "offset": 0,
+            "slot": "53",
+            "type": "t_uint256",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:41"
+          },
+          {
+            "label": "_name",
+            "offset": 0,
+            "slot": "54",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:43"
+          },
+          {
+            "label": "_symbol",
+            "offset": 0,
+            "slot": "55",
+            "type": "t_string_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:44"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "56",
+            "type": "t_array(t_uint256)45_storage",
+            "contract": "ERC20Upgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\ERC20Upgradeable.sol:400"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC20BurnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\token\\ERC20\\extensions\\ERC20BurnableUpgradeable.sol:51"
+          },
+          {
+            "label": "_owner",
+            "offset": 0,
+            "slot": "151",
+            "type": "t_address",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:22"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "152",
+            "type": "t_array(t_uint256)49_storage",
+            "contract": "OwnableUpgradeable",
+            "src": "@openzeppelin\\contracts-upgradeable\\access\\OwnableUpgradeable.sol:94"
+          },
+          {
+            "label": "maxSupply",
+            "offset": 0,
+            "slot": "201",
+            "type": "t_uint256",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:12"
+          },
+          {
+            "label": "circulationsupply",
+            "offset": 0,
+            "slot": "202",
+            "type": "t_uint256",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:15"
+          },
+          {
+            "label": "existingTokens",
+            "offset": 0,
+            "slot": "203",
+            "type": "t_uint256",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:16"
+          },
+          {
+            "label": "_decimals",
+            "offset": 0,
+            "slot": "204",
+            "type": "t_uint8",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:19"
+          },
+          {
+            "label": "daowallet",
+            "offset": 1,
+            "slot": "204",
+            "type": "t_address",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:21"
+          },
+          {
+            "label": "timelockcontractaddress",
+            "offset": 0,
+            "slot": "205",
+            "type": "t_address",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:22"
+          },
+          {
+            "label": "projectWallet",
+            "offset": 0,
+            "slot": "206",
+            "type": "t_address",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:23"
+          },
+          {
+            "label": "tokensAirdropped",
+            "offset": 20,
+            "slot": "206",
+            "type": "t_bool",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:26"
+          },
+          {
+            "label": "admins",
+            "offset": 0,
+            "slot": "207",
+            "type": "t_mapping(t_address,t_bool)",
+            "contract": "ProjectContract",
+            "src": "contracts\\ProjectContract.sol:28"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)45_storage": {
+            "label": "uint256[45]",
+            "numberOfBytes": "1440"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]",
+            "numberOfBytes": "1568"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))",
+            "numberOfBytes": "32"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)",
+            "numberOfBytes": "32"
+          },
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}
